@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import "./global.css";
+
+@import "./header.css";
+
+@import "./secao1.css";
+
+@import "./secao2.css";
+
+@import "./secao3.css";
+
+@import "./secao4.css";
+
+@import "./secao5.css";
+
+@import "./query.css";
+
+@import "./footer.css";
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');

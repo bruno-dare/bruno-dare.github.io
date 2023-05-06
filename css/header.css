@@ -1,0 +1,54 @@
+header {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav a {
+  font-size: 21px;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav .menu-navegacao a {
+  color: white;
+  size: 60px;
+  text-decoration: none;
+  transform: 2.5ms ease-in;
+  position: relative;
+}
+
+nav .menu-navegacao a::before {
+  content: "";
+  position: absolute;
+  padding: 0rem;
+  bottom: -10px;
+  left: 0;
+  width: 0px;
+  height: 1px;
+  background-color: #a6906c;
+  transition: all 1.5s ease;
+}
+
+nav .menu-navegacao a:hover:before {
+  width: 100%;
+}

@@ -1,0 +1,81 @@
+.secao3 {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px 10px 10px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.nosso-servico {
+  text-align: center;
+  background-color: #ffffff;
+  color: black;
+  padding: 30px;
+  font-size: 50px;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 500;
+}
+
+.servicos {
+  border-style: solid;
+  border-width: 0px 0px 6px 0px;
+  border-radius: 5px;
+  border-color: #a6906c;
+  box-shadow: 0px 0px 21px 4px rgba(0,0,0,0.5);
+  background-color: #FDFDFD;
+  flex-wrap: wrap;
+  width: 353px;
+  height: 455px;
+  padding: 30px 20px;
+}
+
+
+.servicos h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  font-family: 'Lexend', sans-serif; 
+  font-weight: 500;
+}
+
+.servicos p {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+  flex-wrap: wrap;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.botao-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.botao-3 a {
+  background-color: #a6906c;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: #000000;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 8px 10px;
+  font-size: 22px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.botao-3 a:visited {
+  color: white;
+}
+
+.botao-3 a:hover {
+  color: black;
+}

@@ -1,0 +1,42 @@
+
+
+
+
+.secao2 {
+  display: flex;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.911);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding-top: 20px;
+}
+
+
+.imgsobre {
+  
+  height: 480px;
+  width: 320px;
+  margin-left: 100px;
+}
+
+
+.span1 h1 {
+  color: #a6906c;
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: 'Lexend', sans-serif; 
+  font-weight: 300;
+}
+
+
+
+.span1 p {
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.959);
+  font-size: 21px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  font-weight: 300;
+}
