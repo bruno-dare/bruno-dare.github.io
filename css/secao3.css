@@ -32,6 +32,10 @@
   padding: 30px 20px;
 }
 
+.icn, .fa-comments, h2 {
+  text-align: center;
+}
+
 
 .servicos h2 {
   font-size: 22px;
