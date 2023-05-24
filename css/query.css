@@ -15,6 +15,7 @@
 
   .imgsobre {
     margin: 0px;
+    margin-right: 25px;
   }
 
   .noticias {
@@ -63,7 +64,6 @@
     font-size: 20px;
   }
   
- 
 
 }
 
@@ -90,7 +90,6 @@
     width: 500px;
     height: 350px;
   }
-
 
  }
 
@@ -136,6 +135,7 @@
     .secao4 a {
       font-size: 12px;
     }
+
   
  }
 
@@ -189,3 +189,33 @@
       height: 580px;
     }
    }
+
+   @media (max-width: 470px) {
+    .span5 h1 {
+      font-size: 20px;
+ 
+    }
+
+    .span5 h3 {
+      font-size: 15px;
+    }
+    
+    .span5 h4 {
+      margin: 0px;
+    }
+
+    footer {
+      height: 400px;
+    }
+    
+   }
+
+   @media (min-width: 384px) and (max-width: 470px) {
+
+    footer h4 {
+     padding-top: 25px;
+   }
+
+   }
+
+   
