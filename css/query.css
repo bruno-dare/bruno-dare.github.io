@@ -10,7 +10,7 @@
   }
 
   .servicos {
-    height: 460px;
+    height: 380px;
   }
 
   .imgsobre {
@@ -84,11 +84,16 @@
 }
 
 
- @media (min-width: 1155px) and (max-width: 1538px) {
+ @media (min-width: 1140px) and (max-width: 1538px) {
 
   .servicos {
-    width: 500px;
-    height: 350px;
+    width: 493px;
+    height: 290px;
+  }
+
+  .servicos:hover {
+    width: 505px;
+    height: 295px;
   }
 
  }
@@ -179,14 +184,12 @@
         font-size: 35px;
         margin-top: 0px;
       }
-
-
     }
 
    @media (max-width: 350px) {
 
     .servicos {
-      height: 580px;
+      height: 370px;
     }
    }
 
@@ -213,9 +216,40 @@
    @media (min-width: 384px) and (max-width: 470px) {
 
     footer h4 {
-     padding-top: 25px;
+     padding-top: 0px;
    }
+   .span5 h1 {
+    padding-top: 0px;
+   }
+   }
+
+   @media (min-width: 471px) and (max-width: 516px) {
+
+   footer {
+    padding: 0px;
+   }
+
+   .span5 .h4-chato {
+    margin: 20px 0px;
+   }
+  }
+
+   @media (min-width: 424px) and (max-width: 474px) {
+
+   .contato-footer {
+    margin-top: 8px;
+   }
+
+   .h4-chato {
+
+    padding-top: 10px;
 
    }
 
    
+
+   
+
+   
+
+   }
