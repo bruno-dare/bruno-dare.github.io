@@ -252,11 +252,17 @@
     video {
       width: 500px;
     }
+    .video-1 {
+      width: 505px;
+    }
    }
 
    @media (max-width: 530px) {
     video {
       width: 400px;
+    }
+    .video-1 {
+      width: 405px;
     }
    }
 
@@ -264,11 +270,16 @@
     video {
       width: 350px;
     }
+    .video-1 {
+      width: 355px;
+    }
    }
 
    @media (max-width: 380px) {
     video {
-     
       width: 300px;
+    }
+    .video-1 {
+      width: 305px;
     }
    }
