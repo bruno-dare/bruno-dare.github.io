@@ -1,0 +1,263 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+header {
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.911);
+  font-family: "Raleway", sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ 
+}
+
+.logo {
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav a {
+  font-size: 19.5px;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav .menu-navegacao a {
+  color: white;
+  size: 60px;
+  text-decoration: none;
+  transform: 2.5ms ease-in;
+  position: relative;
+}
+
+nav .menu-navegacao a::before {
+  content: "";
+  position: absolute;
+  padding: 0rem;
+  bottom: -10px;
+  left: 0;
+  width: 0px;
+  height: 1px;
+  background-color: #a6906c;
+  transition: all 1.5s ease;
+}
+
+nav .menu-navegacao a:hover:before {
+  width: 100%;
+}
+
+
+.artigo-completo {
+  max-width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+.artigo-completo li{
+  padding: 0px;
+  margin: 0px;
+}
+
+.artigo-completo h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.artigo-completo h2 {
+  font-family: 'Lexend', sans-serif; 
+  font-size: 20px;
+  text-align: center;
+}
+
+.artigo-completo p {
+  text-align: start;
+  padding: 15px 0px;
+  font-size: 18px;
+}
+.artigo{
+  display: block;
+  max-width: 2000px;
+  padding-top: 40px;
+}
+.artigo-completo img {
+  width: 900px;
+  background-size: cover;
+  margin-bottom: 20px;
+  
+}
+
+.botao-3 a {
+  background-color: #a6906c;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: #000000;
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.botao-3 a:visited {
+  color: white;
+}
+
+.botao-3 a:hover {
+  color: black;
+}
+
+.div-artigo1  {
+  max-width: 800px;
+  width: auto;
+  height: auto;
+}
+
+.ul-1  {
+  text-align: start; 
+  list-style: none; 
+  font-weight: 600;
+}
+
+.ul-1 li {
+ padding: 5px;
+}
+
+.ul-2  {
+  text-align: start; 
+  list-style: none; 
+  font-weight: 600;
+
+}
+
+.ul-2 li {
+ padding: 5px;
+}
+
+.ul-3  {
+  text-align: start; 
+  list-style: none; 
+  font-weight: 600;
+ 
+}
+
+.ul-3 li {
+ padding: 5px;
+}
+
+.ul-4  {
+  text-align: start; 
+  list-style: none; 
+  font-weight: 600;
+  
+}
+
+.ul-4 li {
+ padding: 5px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.911);
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  margin-top: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+}
+
+.span5 {
+  line-height: 2;
+}
+
+.span5 h4 {
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.span5 a {
+  padding: 10px;
+}
+
+.span5 h3 {
+  font-size: 16px;
+}
+
+@media (max-width: 800px) {
+
+  .artigo-completo img {
+    width: 700px;
+    height: auto;
+  }
+
+
+  .artigo p {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .artigo-completo img {
+    width: 600px;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .artigo-completo img {
+    width: 500px;
+    height: auto;
+  }
+  .artigo-completo h2 {
+    margin-top: 10px;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .artigo-completo img {
+    width: 400px;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .artigo-completo img {
+    width: 320px;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 410px) {
+  .botao-3 a {
+    font-size: 15px;
+  }
+}

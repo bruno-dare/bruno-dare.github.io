@@ -246,10 +246,29 @@
 
    }
 
-   
+   }
 
-   
+   @media (max-width: 630px) {
+    video {
+      width: 500px;
+    }
+   }
 
-   
+   @media (max-width: 530px) {
+    video {
+      width: 400px;
+    }
+   }
 
+   @media (max-width: 430px) {
+    video {
+      width: 350px;
+    }
+   }
+
+   @media (max-width: 380px) {
+    video {
+     
+      width: 300px;
+    }
    }
