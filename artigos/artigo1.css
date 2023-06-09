@@ -6,19 +6,17 @@
 
 
 header {
-  
+  font-family: "Raleway", sans-serif;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 5px;
   flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.911);
-  font-family: "Raleway", sans-serif;
-  padding-top: 5px;
-  padding-bottom: 5px;
- 
+  background-color: black;
 }
 
 .logo {
+  display: flex;
   align-items: center;
   color: white;
   font-weight: bold;
@@ -26,18 +24,20 @@ header {
 
 nav ul {
   display: flex;
-  gap: 32px;
+  gap: 35px;
   list-style: none;
   flex-wrap: wrap;
 }
 
 nav a {
-  font-size: 19.5px;
+  font-size: 21px;
   text-decoration: none;
   list-style: none;
+  color: black;
+  font-weight: bold;
 }
 
-nav .menu-navegacao a {
+nav #menu a {
   color: white;
   size: 60px;
   text-decoration: none;
@@ -45,7 +45,7 @@ nav .menu-navegacao a {
   position: relative;
 }
 
-nav .menu-navegacao a::before {
+nav #menu a::before {
   content: "";
   position: absolute;
   padding: 0rem;
@@ -57,17 +57,116 @@ nav .menu-navegacao a::before {
   transition: all 1.5s ease;
 }
 
-nav .menu-navegacao a:hover:before {
+nav #menu a:hover:before {
   width: 100%;
 }
 
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 685px) {
+
+#cab {
+  justify-content: space-between;
+}
+
+#menu {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  right: 0px;
+  background: #0c0c0cf6;
+  height: 0px;
+  transition: .0.3s;
+  z-index: 1000;
+  text-align: center;
+  visibility: hidden;
+  overflow-y: hidden;
+}
+#nav.active #menu {
+  visibility: visible;
+  line-height: 2.5;
+  height: 438px;
+  overflow-y: auto;
+  
+}
+#menu li:hover {
+  background: #a6906c;
+}
+
+
+#menu li{
+  border-bottom: 1px solid #ffffff11;
+}
+
+#menu .fa-brands{
+  margin-right: 7px;
+}
+
+#btn-mobile {
+  display: flex;
+  padding: .5rem 2rem;
+  font-size: 1.3rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  gap: .8rem;
+  color: white;
+  margin-top: 9px;
+  align-items: center;
+}
+
+#hamburguer {
+  display: block;
+  width: 30px;
+  border-top: 3px solid white;
+}
+
+#hamburguer::after, #hamburguer::before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin-top: 5px;
+  transition: .3s;
+  position: relative;
+}
+
+#nav.active #hamburguer {
+  border-top-color: transparent;
+}
+
+#nav.active #hamburguer::before {
+transform: rotate(135deg);
+}
+
+#nav.active #hamburguer::after {
+  transform: rotate(-135deg);
+  top: -7px;
+}
+
+
+
+}
 
 .artigo-completo {
   max-width: 1100px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
-  
+  max-width: 1150px;
+  margin: 0 auto;
   padding: 10px;
   font-family: "Raleway", sans-serif;
 }
@@ -204,7 +303,7 @@ footer {
   font-size: 16px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 910px) {
 
   .artigo-completo img {
     width: 700px;

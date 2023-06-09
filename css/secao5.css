@@ -1,7 +1,8 @@
 .secao5 {
   text-align: center;
-  width: 100%;
+  max-width: 1900px;
   height: 100%;
+  margin: 0 auto;
   background-color: #ffffffe8;
   flex-wrap: wrap;
   padding: 15px;
