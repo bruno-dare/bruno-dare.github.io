@@ -101,7 +101,7 @@
 
  @media (max-width: 373px) {
   .secao1 a {
-    font-size: 15px;
+    font-size: 14px;
     padding: 10px;
     flex: wrap;
   }
@@ -124,7 +124,7 @@
 
  @media (max-width: 384px) {
   .botao-3 a {
-    font-size: 15px;
+    font-size: 14px;
   }
  }
 
@@ -172,7 +172,7 @@
    @media (max-width: 350px) {
 
     .servicos {
-      height: 370px;
+      height: 390px;
     }
    }
 
@@ -276,6 +276,6 @@
 
     video {
       width: 750px;
-      height: auto;
+      height: 400px;
     }
     }
