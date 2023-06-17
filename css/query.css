@@ -284,7 +284,7 @@
     }
     }
 
-    @media (min-width: 430px) and (max-width: 486px) {
+    @media (min-width: 430px) and (max-width: 500px) {
 
       .botao-3 a {
         font-size: 14px;
