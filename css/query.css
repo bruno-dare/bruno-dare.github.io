@@ -116,16 +116,12 @@
 
  @media (max-width: 435px) {
 
-  .botao-3 a {
-    font-size: 14px;
-  }
-
   .divsecao1 a {
     font-size: 15px;
   }
 
   .botao-3 {
-    font-size: 15px;
+    font-size: 14px;
   }
 
  }
@@ -287,3 +283,10 @@
       height: 400px;
     }
     }
+
+    @media (min-width: 430px) and (max-width: 486px) {
+
+      .botao-3 {
+        font-size: 10px;
+      }
+      }
