@@ -140,7 +140,7 @@
 
 @media (max-width: 430px) {
   .secao4 a {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -286,7 +286,7 @@
 
     @media (min-width: 430px) and (max-width: 486px) {
 
-      .botao-3 {
-        font-size: 10px;
+      .botao-3 a {
+        font-size: 14px;
       }
       }
